@@ -52,5 +52,6 @@ int main()
   float min, max, mean;
   min_max_mean(arr, n, &min, &max, &mean);
   printf("Min value: %.2f\nMax value: %.2f\nMean: %.2f\n", min, max, mean);
+  free(arr);
   return 0;
 }
